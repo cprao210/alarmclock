@@ -1,0 +1,116 @@
+Preferred box-sizing value
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: rgb(215, 226, 247);
+ margin: 0%;
+}
+.container {
+  margin: 15% auto;
+  width: 50%;
+  text-align: center;
+}
+
+#current-time {
+  margin-top: 5px;
+  font-size: 5rem;
+    font-family: monospace;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(126, 167, 250);;
+    margin-top: -20px;
+}
+.header h1{
+    color: rgb(244, 249, 253);
+    padding: 25px;
+}
+h1,
+h2 {
+  color: #111111;
+  font-family: sans-serif;
+}
+.user-input input {
+  background-color: rgb(247, 241, 241);
+  margin: 2%;
+  border:5px solid #8b0f0f;
+  border-radius: 05px;
+  width: 241px;
+  height: 30px;
+  border: none;
+  text-align: center;
+  /* box-shadow: -9px -6px 23px -4px rgba(5, 133, 133, 1); */
+}
+.user-input select {
+  background-color:rgb(192, 183, 183) ;
+}
+.user-input button {
+  all: unset;
+  background-color: #111111;
+  color: white;
+  border: 1px solid rgb(15, 15, 15);
+  padding: 2px;
+  border-radius: 5px;
+  width: 90px;
+  font-size: 18px;
+  margin: 2% 1%;
+  cursor: pointer;
+}
+.user-input button :hover{
+  background-color: rgb(8, 97, 20);
+}
+
+set-alarms-list li {
+  text-decoration: none;
+}
+
+.time-list {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-around;
+}
+.time-list .time {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #585858;
+  margin-left: 100px;
+}
+hr{
+  width: 40%;
+  border-color: #8b0f0f;
+}
+.time-list button {
+  all: unset;
+  border: 1px solid rgb(14, 13, 13);
+  padding: 4px;
+  border-radius: 5px;
+  width: 100px;
+  font-size: 18px;
+  background-color: #111111;
+  color: #f8f0e3;
+  margin-right: 200px;
+  margin-bottom: 2px;
+}
+
+@media (min-width: 350px) {
+  .container {
+    margin: 0% auto;
+    width: 100%;
+    text-align: center;
+  }
+}   
